@@ -3,22 +3,22 @@
 <channel>
 
     <title>Početna stranica Ampel cafe</title>
-    <link>http://example.com/index.html</link>
+    <link>https://anablagojevic.github.io/anablagojevic/index.html</link>
     <description>Mesto najbolje kafe i najukusnijih kroasana, u svako doba dana!</description>
     
     <item>
         <title>O nama</title>
-        <link>http://example.com/onama.html</link>
+        <link>https://anablagojevic.github.io/anablagojevic/onama.html</link>
         <description>Saznajte više o nama</description>
     </item>
     <item>
         <title>Meni</title>
-        <link>http://example.com/meni.html</link>
+        <link>https://anablagojevic.github.io/anablagojevic/meni.html</link>
         <description>Pogledajte naš meni</description>
     </item>
     <item>
         <title>Galerija</title>
-        <link>http://example.com/galerija.html</link>
+        <link>https://anablagojevic.github.io/anablagojevic/galerija.html</link>
         <description>Naša galerija</description>
     </item>
 
