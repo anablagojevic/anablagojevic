@@ -15,18 +15,18 @@
         <loc>https://anablagojevic.github.io/anablagojevic/meni.html</loc>
         <lastmod>2020-12-9</lastmod>
         <changefreq>monthly</changefreq>
-        <priority>0.75</priority>
+        <priority>0.7</priority>
     </url>
     <url>
         <loc>https://anablagojevic.github.io/anablagojevic/galerija.html</loc>
         <lastmod>2020-12-9</lastmod>
         <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
+        <priority>0.6</priority>
     </url>
     <url>
         <loc>https://anablagojevic.github.io/anablagojevic/kontakt.html</loc>
         <lastmod>2020-12-9</lastmod>
         <changefreq>yearly</changefreq>
-        <priority>0.6</priority>
+        <priority>0.5</priority>
     </url>
 </urlset>
