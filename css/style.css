@@ -1,0 +1,559 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background-color: #3f2a14;
+}
+/*Ovo je zaglavlje sa menijem*/
+header{
+    width: 100%;
+    height: 100px;
+}
+#logo{
+    width: 750px;
+    height: 100px;
+    margin-left: 30px;
+    float: left;
+}
+#slikalogo{
+    height: 100px;
+    float: left;
+}
+#name{
+    font-size: 70px;
+    color: #be7e3e;
+    float: left;
+}
+#meni{
+    width: 690px;
+    height: 100px;
+    float: right;
+}
+ul{
+    list-style-type: none;
+    padding-top: 30px;
+}
+li{
+    display: inline;
+    margin-left: 17px;
+    font-size: 30px;
+}
+.stranice{
+    text-decoration: none;
+    color: #be7e3e;
+}
+.stranice:hover{
+    color: #ffffff;
+}
+.cleaner{
+    clear: both;
+}
+/*Ovo je prva slika*/
+main{
+    background-size: cover;
+    background-image: url("../slike/listovi.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 50px;
+}
+#ocafe{
+    background-color: rgb(0,0,0,0.6);
+    width: 100%;
+    height: 700px;
+}
+#dobrodosli{
+    position: relative;
+    animation: myanimation;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 310px;
+    color: #ffffff;
+}
+@keyframes myanimation{
+    0% {top: -100px}
+    100% {top: 0px}
+}
+/*Ovo je druga slika*/
+#drugaslika{
+    width: 1200px;
+    height: 700px;
+    margin: 0px auto;
+    background-color: #3f2a14;
+}
+#utekst{
+    width: 300px;
+    height: 400px;
+    float: left;
+    margin-top: 100px;
+    margin-left: 120px;
+    padding-top: 90px;
+    padding-right: 30px;
+    padding-left: 40px;
+    background-color: rgb(205,133,63,0.2);
+}
+#vise{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 37px;
+    border: 2px solid #be7e3e;
+}
+#vise:hover{
+    color: #be7e3e;
+}
+#uvod{
+    text-align: right;
+    font-size: 20px;
+    color: #ffffff;
+}
+#slikarelax{
+    height: 700px;
+    float: right;
+    padding-right: 150px;
+}
+/*Ovde ce da bude lokacija*/
+#lokacija{
+    width: 100%;
+    height: 300px;
+    margin-top: 50px;
+    padding-top: 50px;
+    background-color: #3f2a14;
+    box-shadow: 0 0 1rem 0 rgb(205,133,63);
+}
+#locicon{
+    margin-left: 700px;
+}
+#gdesmo{
+    padding-top: 50px;
+    text-align: center;
+    font-size: 35px;
+    color: #ffffff;
+}
+/*Ovo je treca slika*/
+#kroasan{
+    background-size: cover;
+    background-image: url("../slike/bread.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 20px 0px;
+}
+.opacity{
+    background-color: rgb(0,0,0,0.6);
+    width: 100%;
+    height: 500px;
+}
+#bread{
+    font-size: 70px;
+    text-align: center;
+    padding-top: 180px;
+    color: #ffffff;
+}
+/*Ovo su tri ikonice*/
+#triikonice{
+    width: 650px;
+    height: 200px;
+    margin: 0px auto;
+    background-color: #3f2a14;
+}
+.ikonice{
+    width: 170px;
+    height: 200px;
+    float: left;
+    margin-right: 46px;
+    background-color: #3f2a14;
+}
+.ico{
+    margin: 20px 0px 0px 35px;
+}
+.textico{
+    padding-top: 20px;
+    color: #ffffff;
+    text-align: center;
+}
+/*Ovo je cetvrta slika*/
+#kafe{
+    background-size: cover;
+    background-image: url("../slike/solja123.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 20px;
+}
+#coffee{
+    font-size: 70px;
+    text-align: center;
+    padding-top: 200px;
+    color: #ffffff;
+}
+/*Ovo ce da bude footer*/
+footer{
+    width: 100%;
+    height: 350px;
+    background-color: #be7e3e;
+}
+.futer{
+    width: 350px;
+    height: 300px;
+    float: left;
+    margin-left: 115px;
+    background-color: #be7e3e;
+}
+.centar{
+    margin: 40px 0px 0px 140px;
+}
+.naslovi{
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 30px;
+}
+.soc{
+    width: 100px;
+    height: 70px;
+    margin-top: 40px;
+    margin-left: 125px;
+    background-color: #be7e3e;
+}
+.c{
+    margin-left: 30px;
+}
+.pn{
+    color: #ffffff;
+    text-align: center;
+}
+.info{
+    color: #ffffff;
+    text-align: center;
+    margin-top: 20px;
+}
+.left{
+    float: left;
+    margin-left: 30px;
+}
+#prava{
+    text-align: left;
+    color: #ffffff;
+}
+.smr{
+    text-decoration: none;
+    color: #ffffff;
+}
+/*Ovo je nova stranica onama.html*/
+#biografija{
+    padding-top: 50px;
+    width: 950px;
+    height: 650px;
+    margin: 0px auto;
+}
+#autor{
+    height: 500px;
+    float: left;
+    margin-left: 40px;
+    box-shadow: 0 0 1rem 0 rgb(205,133,63);
+}
+#providna1{
+    width: 400px;
+    height: 500px;
+    margin-left: 510px;
+}
+#providna2{
+    width: 400px;
+    height: 500px;
+    box-shadow: 0 0 1rem 0 rgb(205,133,63);
+}
+#naslovana{
+    color: #ffffff;
+    text-align: center;
+    padding-top: 90px;
+    padding-bottom: 20px;
+}
+#tekst{
+    font-size: 20px;
+    padding: 0px 10px;
+    text-align: center;
+    color: #ffffff;
+}
+/*Ovde ce da pise nesto o kaficu*/
+#onama{
+    width: 1200px;
+    height: 700px;
+    margin: 0px auto;
+    background-color: #3f2a14;
+    margin-bottom: 140px;
+}
+#tonama{
+    width: 500px;
+    height: 300px;
+    float: left;
+    margin: 180px 0px 0px 30px;
+    padding: 40px 10px 0px 10px;
+    box-shadow: 0 0 1rem 0 rgb(205,133,63);
+}
+#tekst1{
+    text-align: center;
+    color: #ffffff;
+    font-size: 20px;
+}
+#gramofon{
+    height: 700px;
+    margin-left: 50px;
+    box-shadow: 0 0 1rem 0 rgb(205,133,63);
+}
+/*Ovde ce da budu neke tri slike sa opisima*/
+#trislike{
+    width: 900px;
+    height: 350px;
+    background-color: #3f2a14;
+    margin: 0px auto;
+}
+.tri{
+    float: left;
+    width: 250px;
+    height: 350px;
+    background-color: #3f2a14;
+    border: 1px solid #be7e3e;
+    margin-left: 35px;
+}
+.t{
+    width: 250px;
+}
+.s{
+    margin-top: 15px;
+    text-align: center;
+    color: #ffffff;
+}
+.opis{
+    font-size: 15px;
+    text-align: center;
+    color: #ffffff;
+}
+/*Ovo je o nama2*/
+#onama2{
+    height: 500px;
+    width: 1300px;
+    background-image: url("../slike/books3.jpg");
+    margin: 0px auto;
+    margin-bottom: 130px;
+    margin-top: 130px;
+    box-shadow: 0 0 1rem 0 rgb(205,133,63);
+}
+#oponama2{
+    width: 1300px;
+    height: 500px;
+    background-color: rgb(0,0,0,0.6);
+}
+#tekst2{
+    text-align: center;
+    color: #ffffff;
+    font-size: 30px;
+    padding-top: 130px;
+    margin: 0px 40px;
+}
+/*Ovde pocinje nova stranica meni*/
+#cenovnik{
+    width: 1200px;
+    height: 2300px;
+    margin: 0px auto;
+    background-color: #3f2a14;
+}
+#m{
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 50px;
+    padding-top: 50px;
+}
+#z3{
+    width: 300px;
+    height: 96px;
+    margin: 0px auto;
+    background-color: #3f2a14;
+}
+#os{
+    width: auto;
+    height: auto;
+    padding: 20px;
+    margin: 0px 120px;
+    background-color: rgb(205,133,63,0.2);
+}
+#opisslike{
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    margin: 0px 20px;
+}
+#cena{
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    border: 1px solid #be7e3e;
+    margin: 0px 400px;
+}
+/*Cena 2*/
+#smuti{
+    height: 500px;
+    float: left;
+    margin: 100px 0px 0px 220px;
+}
+#s{
+    float: right;
+    margin: 130px 220px 0px 0px;
+    padding: 40px 30px 0px 30px;
+    width: 350px;
+    height: 400px;
+    background-color: rgb(205,133,63,0.2);
+}
+.smutiji{
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+}
+#cena2{
+    margin: 20px 110px 0px 110px;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    border: 1px solid #be7e3e;
+}
+/*Cena 3*/
+#sokovi{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(205,133,63,0.2);
+    float: left;
+    margin: 150px 0px 0px 130px;
+    padding-top: 30px;
+}
+#cena3{
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    margin: 20px 90px 0px 90px;
+    border: 1px solid #be7e3e;
+}
+#sok{
+    float: right;
+    margin: 100px 110px 100px 0px;
+}
+/*Cetvrta cena*/
+#cetiricene{
+    width: 1200px;
+    height: 300px;
+    margin: 0px auto;
+    background-color: #3f2a14;
+}
+.tc{
+    float: left;
+    margin-left: 35px;
+    height: 300px;
+}
+.cenice{
+    margin-top: 30px;
+    height: 200px;
+}
+.ptag{
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    margin: 20px 70px 0px 70px;
+    border: 1px solid #be7e3e;
+}
+#h2tag{
+    margin-top: 100px;
+    text-align: center;
+    color: #ffffff;
+}
+/*Ovde pocinje nova stranica galerija.html*/
+#galerija{
+    width: 1200px;
+    height: 1700px;
+    margin: 0px auto;
+    background-color: #3f2a14;
+}
+#n{
+    padding-top: 50px;
+    text-align: center;
+    color: #be7e3e;
+
+}
+.s1{
+    height: 250px;
+    margin: 50px 0px 0px 45px;
+}
+/*Ovde pocinje nova stranica kontakt.html*/
+#contact{
+    width: 1000px;
+    height: 700px;
+    background-color: #3f2a14;
+    margin: 0px auto;
+}
+#kn{
+    text-align: center;
+    padding: 50px 0px 30px 0px;
+    color: #ffffff;
+}
+.inf{
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+#gn{
+    text-align: center;
+    padding: 30px 0px 20px 0px;
+    color: #ffffff;
+}
+/*Ovde ce da bude forma za rezervacije*/
+#r{
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+form{
+    margin: 0px 250px;
+    padding: 15px 0px;
+    background-color: #3f2a14;
+    border: 2px solid #be7e3e;
+}
+#i{
+    margin-right: 29.6px;
+    margin-bottom: 5px;
+}
+#d{
+    margin-right: 95px;
+    margin-bottom: 5px;
+}
+#v{
+    margin-right: 100px;
+    margin-bottom: 5px;
+}
+#b{
+    margin-right: 61px;
+    margin-bottom: 5px;
+}
+label{
+    font-size: 20px;
+    color: #ffffff;
+    margin-left: 10px;
+}
+input{
+    width: 300px;
+    height: 30px;
+}
+.button{
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 5px;
+    border: none;
+    color: #ffffff;
+    background-color: #be7e3e;
+}
